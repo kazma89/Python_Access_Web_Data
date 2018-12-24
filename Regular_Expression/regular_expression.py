@@ -21,5 +21,7 @@ y = re.findall('[AEIOU]+',x)
 print(y)
 
 email = 'From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008'
-y = re.findall('\S+@\S+', email)
+y = re.findall('\S+?@\S+', email)
+x = re.findall('^From .*@([^ ]*)', email)
 print(y)
+print(x)
