@@ -1,4 +1,5 @@
 import json
+
 input = '''[
     {   "id" : "001",
         "x" : "2",
